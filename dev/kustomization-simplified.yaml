@@ -1,0 +1,5 @@
+# Alternative : raccourci Kustomize (plus simple, pas besoin de JSON Patch)
+# mieux que la version précédente (replicas.yaml) car plus lisible et plus simple à maintenir
+replicas:
+  - name: clinic-deploy
+    count: 3
